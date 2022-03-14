@@ -1,7 +1,7 @@
 {
-  "name": "node-filesystem-cache",
+  "name": "@grynn/node-filesystem-cache",
   "version": "1.0.2",
-  "description": "File cached for NodeJS",
+  "description": "File cache for NodeJS (forked from trinhtam/node-filesystem-cache)",
   "keywords": [
     "nodejs file cache",
     "nodejs caching storage",
@@ -24,17 +24,17 @@
     "supertest": "^4.0.2"
   },
   "scripts": {
-    "test": "mocha --reporter spec --bail --check-leaks test/",
+    "test": "npx mocha --reporter spec --bail --check-leaks test/",
     "test-nyc": "./node_modules/.bin/nyc ./node_modules/.bin/_mocha --timeout 30000 --exit"
   },
-  "author": "TamIT <tam.maris94@gmail.com> (https://tamit.info)",
+  "author": "Vishal Doshi <vishal.doshi@gmail.com>",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trinhtam/node-filesystem-cache.git"
+    "url": "git+https://github.com/Grynn/node-filesystem-cache.git"
   },
-  "homepage": "https://github.com/trinhtam/node-filesystem-cache",
+  "homepage": "https://github.com/Grynn/node-filesystem-cache.git",
   "bugs": {
-    "url": "https://github.com/trinhtam/node-filesystem-cache/issues"
+    "url": "https://github.com/Grynn/node-filesystem-cache/issues"
   }
 }
