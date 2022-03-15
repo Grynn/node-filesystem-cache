@@ -1,10 +1,12 @@
-# node-filesystem-cache
+# About Fork
+
+Forked from upstream since it does not seem to be maintained;  
+Merged PR #2 from upstream  
+Code style cleanups (to my taste)  
+
+## node-filesystem-cache
 
 Module cache for NodeJs using Filesystem. Storing string, integer, boolean, object, class,...
-
-Forked from upstream since it does not seem to be maintained;
-Merged PR #2 from upstream
-Code style cleanups (to my taste)
 
 ## Installation
 
