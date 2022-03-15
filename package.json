@@ -1,6 +1,6 @@
 {
   "name": "@grynn/node-filesystem-cache",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "File cache for NodeJS (forked from trinhtam/node-filesystem-cache)",
   "keywords": [
     "nodejs file cache",
